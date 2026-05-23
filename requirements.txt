@@ -1,0 +1,20 @@
+# Streamlit for the web interface
+streamlit==1.30.0
+
+# Environment variables support
+python-dotenv==1.0.0
+
+# LangChain for building conversation chains
+langchain>=0.3.70
+
+# HuggingFace Hub for model API access
+huggingface-hub>=0.16.0
+
+# Optional: memory and caching for LangChain
+faiss-cpu>=1.7.4
+
+# NLP models
+transformers>=4.35.0
+
+# HTTP requests
+requests>=2.31.0
