@@ -1,61 +1,76 @@
-# AI-Chatbot-Teacher
-
-An intelligent **AI Teacher** built with **Streamlit** and **Hugging Face's LLaMA 3.1 8B Instruct** model.  
-This chatbot can answer questions in **all languages**, making it perfect for global learning environments.
-
-
-## Features
-- **Interactive Chat Interface** – Ask questions and get instant answers.
-- **Multilingual Support** – Ask questions in any language and get accurate responses.
-- **Conversation History** – Keeps track of all previous messages.
-- **Built with LangChain** – Uses AI-powered text generation.
-- **Streamlit UI** – Simple, user-friendly web interface.
-
-## Installation
-### Clone the Repository
-git clone https://github.com/sahil22011/teachers-ai.git
-cd teachers-ai
-### Install Dependencies
-pip install -r requirements.txt
-### Set Up Hugging Face API Key
-Create a .env file and add:
-HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_key_here
-### Run the Streamlit app:
-streamlit run teachers.py
 # AI Teacher Chatbot 🤖📚
 
-An intelligent AI-powered Teacher Chatbot built using **Python, Streamlit, Hugging Face, and LangChain**.
-This chatbot helps students ask questions and receive AI-generated educational responses in an interactive interface.
+An AI-powered educational chatbot built using **Python, Streamlit, Hugging Face, LangChain, and Transformers** that helps students ask questions and receive intelligent responses in real time.
+
+This project was built to explore practical AI application development, NLP integration, and real-world debugging workflows used in modern software engineering.
 
 ---
 
-# 🚀 Features
+# 🚀 Live Project
 
-* AI-powered question answering
-* Interactive chatbot interface using Streamlit
-* Hugging Face model integration
-* Clean and simple UI
-* Real-time responses
-* Environment variable support using `.env`
-* Beginner-friendly project structure
+## GitHub Repository
+
+[AI Teacher Chatbot Repository](https://github.com/Itzshambhav/AI-Teacher-Chatbot?utm_source=chatgpt.com)
+
+## GitHub Profile
+
+[Shambhav Kumar GitHub Profile](https://github.com/Itzshambhav?utm_source=chatgpt.com)
 
 ---
 
-# 🛠️ Technologies Used
+# 📌 Project Overview
 
-* Python 3.11
-* Streamlit
-* Hugging Face API
-* LangChain
-* Transformers
-* PyTorch
+The AI Teacher Chatbot acts like a virtual teaching assistant capable of answering academic questions through an interactive web interface.
+
+The chatbot was developed using:
+
+* Streamlit for frontend UI
+* Hugging Face API for AI model integration
+* LangChain for conversational workflow
+* Transformers and PyTorch for NLP support
+
+This project helped in understanding:
+
+* AI model integration
+* API handling
+* Dependency management
+* Virtual environments
+* Python package compatibility
+* Real-world debugging
+
+---
+
+# ✨ Features
+
+* 💬 Interactive AI chatbot interface
+* 📚 Educational question answering
+* ⚡ Real-time responses
+* 🌐 Streamlit web application
+* 🔐 Environment variable security using `.env`
+* 🤖 Hugging Face AI model integration
+* 🧠 Conversational AI workflow using LangChain
+* 🛠️ Modular Python project structure
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology   | Purpose                         |
+| ------------ | ------------------------------- |
+| Python 3.11  | Core programming language       |
+| Streamlit    | Frontend web app                |
+| Hugging Face | AI model API                    |
+| LangChain    | Conversation pipeline           |
+| Transformers | NLP model support               |
+| PyTorch      | Deep learning backend           |
+| dotenv       | Environment variable management |
 
 ---
 
 # 📂 Project Structure
 
 ```bash
-AI Teacher Chatbot/
+AI-Teacher-Chatbot/
 │
 ├── teachers.py
 ├── requirements.txt
@@ -66,12 +81,12 @@ AI Teacher Chatbot/
 
 ---
 
-# ⚡ Installation & Setup
+# ⚙️ Installation & Setup
 
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Teacher-Chatbot.git
+git clone https://github.com/Itzshambhav/AI-Teacher-Chatbot.git
 cd AI-Teacher-Chatbot
 ```
 
@@ -83,7 +98,7 @@ cd AI-Teacher-Chatbot
 py -3.11 -m venv venv311
 ```
 
-Activate virtual environment:
+Activate environment:
 
 ### Windows
 
@@ -99,7 +114,7 @@ Activate virtual environment:
 pip install -r requirements.txt
 ```
 
-Install additional packages:
+Install additional required packages:
 
 ```bash
 pip install langchain==0.1.0
@@ -111,7 +126,7 @@ pip install torch torchvision torchaudio
 
 ## 4️⃣ Create `.env` File
 
-Create a `.env` file in the project directory and add:
+Create a `.env` file inside the project directory and add:
 
 ```env
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
@@ -119,13 +134,13 @@ HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
 
 ---
 
-## 5️⃣ Run the Application
+## 5️⃣ Run Application
 
 ```bash
 streamlit run teachers.py
 ```
 
-The application will open at:
+The application will run on:
 
 ```bash
 http://localhost:8501
@@ -133,62 +148,119 @@ http://localhost:8501
 
 ---
 
-# 🧠 Challenges Faced During Development
+# 🧩 Challenges Faced During Development
 
-While building this project, several real-world development challenges were encountered and solved:
+This project involved solving several real-world software engineering and AI development issues.
 
-* Python 3.14 compatibility issues with AI libraries
-* Pillow and NumPy installation failures
-* LangChain version incompatibility
+## 🔹 Python Compatibility Issues
+
+Initially, the project was configured using Python 3.14, but several AI libraries were incompatible with the latest version.
+
+Problems faced:
+
+* Pillow installation failure
+* NumPy build issues
 * Streamlit dependency conflicts
-* Hugging Face API token setup
-* Virtual environment configuration
-* PyTorch installation and configuration
 
-These issues were resolved by:
+### Solution:
 
-* Switching to Python 3.11
-* Managing dependencies carefully
-* Using compatible LangChain versions
-* Setting up isolated virtual environments
-
-This project helped in learning practical software engineering and debugging skills used in real AI development workflows.
+Downgraded environment to Python 3.11 for stable AI library support.
 
 ---
 
-# 📸 Output
+## 🔹 LangChain Version Conflicts
 
-The chatbot provides AI-generated educational responses through an interactive web interface built with Streamlit.
+The project code was written using older LangChain imports, but the latest LangChain version had breaking changes.
+
+Error faced:
+
+```python
+ModuleNotFoundError: No module named 'langchain.chains'
+```
+
+### Solution:
+
+Installed a compatible LangChain version:
+
+```bash
+pip install langchain==0.1.0
+```
+
+---
+
+## 🔹 Hugging Face API Integration
+
+The chatbot required secure API token integration.
+
+### Solution:
+
+* Generated Hugging Face API token
+* Configured `.env` file
+* Connected chatbot to AI model API securely
+
+---
+
+## 🔹 Virtual Environment Management
+
+Multiple environments caused package conflicts during installation.
+
+### Solution:
+
+Created a dedicated Python 3.11 virtual environment for dependency isolation.
+
+---
+
+# 📖 What I Learned
+
+This project helped me gain practical experience in:
+
+* AI chatbot development
+* NLP workflows
+* Python environment management
+* API integration
+* Debugging package conflicts
+* Streamlit web applications
+* Dependency resolution
+* Real-world software engineering practices
 
 ---
 
 # 🎯 Future Improvements
 
-* Add voice assistant support
-* Add multiple AI models
-* Save chat history
-* Add authentication system
-* Deploy online using Streamlit Cloud or Render
-* Add PDF/document question answering
+* 🎤 Voice input support
+* 🧠 Multiple AI model integration
+* 💾 Chat history storage
+* 🔐 User authentication
+* ☁️ Cloud deployment
+* 📄 PDF/document question answering
+* 🌍 Multi-language support
+
+---
+
+# 📸 Screenshots
+
+*Add chatbot screenshots here*
 
 ---
 
 # 👨‍💻 Author
 
-Shambhav Kumar
+## Shambhav Kumar
+
+Passionate about:
+
+* Artificial Intelligence
+* Machine Learning
+* Software Development
+* AI-based Educational Systems
+
+GitHub:
+[Itzshambhav GitHub](https://github.com/Itzshambhav?utm_source=chatgpt.com)
 
 ---
 
 # ⭐ Conclusion
 
-This project demonstrates practical implementation of:
+The AI Teacher Chatbot project was built not only to create an AI-powered educational assistant but also to gain hands-on experience with modern AI development tools and debugging workflows.
 
-* AI integration
-* NLP applications
-* API handling
-* Frontend + backend integration
-* Real-world debugging and dependency management
-
-It was built as a learning project to explore modern AI application development.
-
-
+The project involved solving real dependency conflicts, environment setup issues, API integration problems, and AI framework compatibility challenges — closely reflecting practical software engineering scenarios used in industry-level development.
