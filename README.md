@@ -4,9 +4,9 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live Application:** https://your-live-app-link.streamlit.app
+🚀 **Try the AI Teacher Chatbot here:**
+🔗 **Live Application:** https://ai-teacher-chatbot-live.streamlit.app/
 
-*(Replace the above URL after deploying your project.)*
 
 ---
 
