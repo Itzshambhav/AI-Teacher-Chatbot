@@ -132,15 +132,21 @@ The application will open automatically in your browser.
 
 ## 📸 Screenshots
 
-Add screenshots of your chatbot here after uploading them.
+### 🏠 Home Page
 
-Example:
+![Home Page](screenshots/home.png)
 
-```
-screenshots/
-    home.png
-    chat.png
-```
+---
+
+### 💬 AI Chat Example 1
+
+![Chat Example 1](screenshots/chat1.png)
+
+---
+
+### 💬 AI Chat Example 2
+
+![Chat Example 2](screenshots/chat2.png)
 
 ---
 
